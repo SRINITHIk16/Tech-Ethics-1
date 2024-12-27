@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form with Login Button</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Login Form</h2>
+    <form id="loginForm">
+      <label for="name">Name:</label>
+      <input type="text" id="Name" name="name" required>
+
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="village">Village/City:</label>
+      <input type="text" id="village" name="village" required>
+
+      <label for="district">District:</label>
+      <input type="text" id="district" name="district" required>
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required>
+
+      <button type="button" onclick="submitForm()">Login</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
