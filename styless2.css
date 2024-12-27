@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: left;
-    text-align: center;
+    text-align: left;
 }
 
 .container {
