@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Service Scheme</title>
+    <link rel="stylesheet" href="vss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Village Service Scheme</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Empowering Villages</h2>
+            <p>Join us in making a difference through our Village Service Scheme.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our initiative focuses on providing essential services and support to villages in need. We aim to improve the quality of life for villagers through various programs and projects.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <ul>
+                <li>Education Support</li>
+                <li>Healthcare Initiatives</li>
+                <li>Infrastructure Development</li>
+                <li>Skill Training</li>
+                <li>Environmental Conservation</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="donate">
+        <div class="container">
+            <h2>Donate</h2>
+            <p>Your generous donations help us fund critical projects and services. Every contribution makes a difference.</p>
+            <form id="donationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="amount">Donation Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+                <button type="submit">Donate</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for more information or to find out how you can help.</p>
+            <form id="contactForm">
+                <label for="contactName">Name:</label>
+                <input type="text" id="contactName" name="contactName" required>
+                <label for="contactEmail">Email:</label>
+                <input type="email" id="contactEmail" name="contactEmail" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Village Service Scheme</p>
+        </div>
+    </footer>
+    
+    <script src="vss.js"></script>
+</body>
+</html>
